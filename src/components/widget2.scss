@@ -1,0 +1,110 @@
+
+
+.graph{
+    height: 23em;
+    margin-top: 20px;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 10px;
+   margin-right: 10em;
+   padding: 20px;
+   font-weight: bold;
+    align-items: flex-start;
+
+   
+   hr{
+    margin-top: 40px;
+    width: 34em;
+   }
+   
+
+   
+}
+
+.boxes{
+       
+    display: flex;
+
+
+
+    .box1{
+
+       margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 10em;
+        border: 0.5px solid lightgray;
+        border-radius: 5px;
+        height: 5em;
+        position: relative;
+        
+       
+       
+       }
+    
+       .box2{
+       margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 10em;
+        border: 0.5px solid lightgray;
+        border-radius: 5px;
+        height: 5em;
+   
+     
+       }
+    
+
+
+       .moretext{
+        display: flex;
+        font-size: 10px;
+        color: gray;
+       margin-top: 10px;
+       margin-left: 20px;
+        font-weight: bold;
+       
+       }
+       .val1{
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 25px;
+       }
+
+
+       .percentage{
+        font-size: 12px;
+        padding: 3px;
+        color: white;
+        background-color: #1CAC78;
+        border-radius:45% ;
+        position: absolute;
+        top: 30px;
+        left: 11em;
+    }
+    .box2{
+        position: relative;
+        
+        .val2{
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+
+        .percentage1{
+        font-size: 12px;
+        padding: 3px;
+        color: white;
+        background-color: #1CAC78;
+        border-radius:45% ;
+        position: absolute;
+        top: 30px;
+        left: 11.5em;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.taal{
+display: flex;
+flex-direction: column;
+
+.butt{
+    display: flex;
+    color: white;
+    background-color: blue;
+    margin-left: 87em;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 5px;
+  
+
+    // margin-top: -20px;
+}
+
+.contain{
+    margin-top: 10px;
+    margin-left:4em;
+    margin-bottom:50px ;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn{
+    border: none;
+    color: white;
+    background-color: #1CAC78;
+    border-radius: 10px;
+}
+}

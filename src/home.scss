@@ -1,0 +1,23 @@
+
+.home{
+    display: flex;
+    
+}
+.homeContainer {
+  flex: 6;
+  
+  .head{
+    
+    display: flex;
+    ;
+  }
+  
+  .widgets{
+    
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+
+  }
+ 
+}
