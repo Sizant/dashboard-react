@@ -11,7 +11,22 @@
    font-weight: bold;
     align-items: flex-start;
 
-   
+   .menu{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    position: absolute;
+    top: 90px;
+    right: 200px;
+    border: 0.5px solid gray;
+    background-color: white;
+    padding: 10px;
+   }
+
+  
+
    hr{
     margin-top: 40px;
     width: 34em;

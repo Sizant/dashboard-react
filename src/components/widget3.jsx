@@ -73,7 +73,7 @@ const widget3 = () => {
         </div>
         
         <div className='right'>
-            <div className="dot"><MoreHorizRoundedIcon/></div>
+            <div className="dot" style={{cursor:"pointer"}}><MoreHorizRoundedIcon/></div>
         </div>
         
 

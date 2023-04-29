@@ -13,11 +13,14 @@ import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import SettingsIcon from '@mui/icons-material/Settings';
 import LogoutIcon from '@mui/icons-material/Logout';
 
+import {FaBuysellads} from "react-icons/fa";
+
 function Sidebar(){
     return (
         <div className='sidebar'>
             <div className="top">
-                <span className="logo">Artemis</span>
+                
+                <span className="logo"> <FaBuysellads style={{marginRight:"5px",fontSize:"25px"}}/> Artemis</span>
                 </div>
                 <hr />
             <div className="center">

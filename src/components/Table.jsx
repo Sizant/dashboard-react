@@ -55,8 +55,9 @@ const onExportClick=()=>{
     <div className='ag-theme-alpine' style={{
         height:'305px',
         paddingLeft:"6em",
+        marginLeft:"70px",
         marginBottom:"100px",
-        width:'1200px'}}>
+        width:'1100px'}}>
             <AgGridReact rowData={data} columnDefs={columns} defaultColDef={ColDef} onGridReady={onReady} /></div>
             </div>
   )

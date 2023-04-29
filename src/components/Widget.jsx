@@ -18,8 +18,8 @@ const Widget = () => {
               <span className='text'>Yearly Goal</span>
         </div>
           
-            <div className='right'>
-            <div className="dot"><MoreHorizRoundedIcon/></div>
+            <div className='right' >
+            <div className="dot" style={{cursor:"pointer"}}><MoreHorizRoundedIcon/></div>
             
         </div>
         

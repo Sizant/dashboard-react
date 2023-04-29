@@ -1,6 +1,8 @@
 import React from 'react'
 import './widget2.scss'
 import { AreaChart, Area, ResponsiveContainer } from "recharts";
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
 
 
 const data = [
@@ -115,7 +117,8 @@ const widget2 = () => {
     <div className='graph'>
         <div className="bal">
             <span style={{fontSize:"20px"}}>Balance</span>
-        <hr />
+            <button className='menu'>Monthly <ArrowDropDownIcon/></button>
+               <hr />
         </div>
         <div className="boxes">
         <div className="box1">
